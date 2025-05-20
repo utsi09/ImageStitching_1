@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 2. 이미지 불러오기 (Kaggle에서는 입력 이미지를 /kaggle/input/경로에 넣어야 함)
+# 2. 이미지 불러오기
 img1 = cv2.imread('/kaggle/input/image-stitching-samples/1.jpg')
 img2 = cv2.imread('/kaggle/input/image-stitching-samples/2.jpg')
 
